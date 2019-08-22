@@ -1,0 +1,20 @@
+.row{
+    margin-bottom: -10px;
+}
+.elem {
+    display: inline-block;
+    font-size: 0;
+    width: 100%;
+    border-bottom: none;
+    background: #fff;
+    padding: 0;
+    height: auto;
+}
+.elem > span {
+    display: block;
+    cursor: pointer;
+    height: 0;
+    padding-bottom:	70%;
+    background-size: cover;
+    background-position: center center;
+}
